@@ -74,6 +74,7 @@ def setup_hard(scanword_instance):
                                    question="Искусст-\n венный\n утепли-\nтель",
                                    answer='синтепон',
                                    start_x=3, start_y=11)
+
     scanword_instance.get_question(position=(5, 12), num_elements=5, direction='vertical',
                                    question="Перевязь-\n дракона",
                                    answer='орарь',
@@ -88,7 +89,7 @@ def setup_hard(scanword_instance):
                                    start_x=6, start_y=8)
     scanword_instance.get_question(position=(5, 6), num_elements=5, direction='vertical',
                                    question="Избав-\n ление от\n денег",
-                                   answer='ряска',
+                                   answer='трата',
                                    start_x=6, start_y=6)
     scanword_instance.get_question(position=(4, 5), num_elements=6, direction='vertical',
                                    question="Нитки\n хирурга",
@@ -128,12 +129,13 @@ def setup_hard(scanword_instance):
                                    start_x=3, start_y=0)
     scanword_instance.get_question(position=(6, 0), num_elements=6, direction='horizontal',
                                    question="Резинка в\nмагнито-\n фоне",
-                                   answer='бобина',
+                                   answer='пассик',
                                    start_x=5, start_y=0)
     scanword_instance.get_question(position=(6, 1), num_elements=5, direction='horizontal',
                                    question="Приль-\nнувший к\n гипоте-\nнузе",
                                    answer='катет',
                                    start_x=6, start_y=2)
+
     scanword_instance.get_question(position=(6, 7), num_elements=6, direction='horizontal',
                                    question="...-на-\nДону",
                                    answer='ростов',
@@ -156,11 +158,11 @@ def setup_hard(scanword_instance):
                                    start_x=10, start_y=8)
     scanword_instance.get_question(position=(9, 4), num_elements=4, direction='horizontal',
                                    question="Ткацкий\n термин",
-                                   answer='нить',
+                                   answer='уток',
                                    start_x=9, start_y=5)
     scanword_instance.get_question(position=(8, 0), num_elements=9, direction='horizontal',
                                    question="Школь-\n ный урок",
-                                   answer='острастка',
+                                   answer='геометрия',
                                    start_x=7, start_y=0)
     scanword_instance.get_question(position=(8, 1), num_elements=5, direction='horizontal',
                                    question="Тюлень в\n Охотском\n море",
